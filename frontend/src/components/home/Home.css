@@ -1,0 +1,59 @@
+.container-body{
+  background: url('/public/building.jpg');
+  height: 8100px;
+  width: 100%;
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  
+}
+  
+.balloon{
+  height: 500px;
+  /* width: 2000px; */
+  width: auto;
+  margin-top: 1200px;
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua; */
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-left: 300px;
+}
+
+.absolute-text {
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: aliceblue;
+  /* overflow-x: hidden; */
+  /* overflow-y: hidden; */
+
+}
+.absolute-text h1 {
+  font-size: 5rem;
+  /* background-color: rgba(100, 148, 237, 0.644); */
+  
+}
+.dubai{
+  margin-top: 4500px;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  width: 1000px;
+  margin-left: -700px;
+  
+}
+.d{
+ 
+  display: flex;
+  justify-content: center;
+}
+
