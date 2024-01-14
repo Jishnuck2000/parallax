@@ -23,7 +23,7 @@
   /* background-color: aqua; */
   overflow-x: hidden;
   overflow-y: hidden;
-  margin-left: 300px;
+  /* margin-left: -150px; */
 }
 
 .absolute-text {
@@ -57,3 +57,19 @@
   justify-content: center;
 }
 
+
+.background{
+  height: 500px;
+  width: 500px;
+  margin-top:7500px ;
+  background-color: rgba(34, 199, 196, 0.124);
+  border-radius: 400px;
+  margin-left: -800px;
+  display: flex;
+  justify-content: center;
+}
+.explore{
+  color: aliceblue;
+  font-size: 130px;
+  margin-top: 330px;
+}

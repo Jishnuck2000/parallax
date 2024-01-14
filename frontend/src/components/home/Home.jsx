@@ -4,6 +4,11 @@ import { ParallaxBanner, useParallax } from "react-scroll-parallax";
 
 
 function Home() {
+  const parallaxheading = useParallax({
+    scale: [0.1,2, "easeInQuad"],
+    speed:-60,
+  });
+  
 
   const parallax = useParallax({
     scale: [0.1,2, "easeInQuad"],
@@ -35,7 +40,7 @@ function Home() {
 
 <div className="absolute-text">
           <h1 ref={parallaxEasing.ref}>WELCOME TO DUBAI</h1>
-          <h2 ref={parallaxEasingLeft.ref}>Vist For All Bookings</h2>
+          <h2 ref={parallaxEasingLeft.ref}>Vist For All Updates</h2>
         </div>
 <div className='d'>
         <img
@@ -44,7 +49,15 @@ function Home() {
       className="dubai"></img>
 </div>
 
-       
+<div className='background'>
+<h1 ref={parallaxheading.ref} className='explore'>EXPLORE</h1> 
+
+</div>
+
+
+
+
+      
 
 
   </div>
